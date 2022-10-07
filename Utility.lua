@@ -16,3 +16,5 @@ function utility.newfolder(name)
 	end
 	return name
 end
+
+return utility
