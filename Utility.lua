@@ -3,7 +3,7 @@ function utility.newfile(name, data)
 	if not isfile(name) then
 		writefile(name, data)
 	else
-		warn("(" .. name ..") already exists, please use 'appendfile(filename.extension, data)'.")\
+		warn("(" .. name ..") already exists, please use 'appendfile(filename.extension, data)'.")
 	end
 	return name
 end
