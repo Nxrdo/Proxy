@@ -17,4 +17,8 @@ function utility.newfolder(name)
 	return name
 end
 
-return utility
+function utility.require(path)
+	if isfile(path) then 
+        loadfile(path) 
+    end
+end
