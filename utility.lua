@@ -22,3 +22,5 @@ function utility.require(path)
         loadfile(path) 
     end
 end
+
+return utility
